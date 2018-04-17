@@ -83,7 +83,7 @@ Please cite our work if you find our code/paper is useful to your work.
 
     @article{dai2017learning,
       title={Learning Combinatorial Optimization Algorithms over Graphs},
-      author={Dai, Hanjun and Khalil, Elias B and Zhang, Yuyu and Dilkina, Bistra and Song, Le},
+      author={Ding, Hanjun and Khalil, Elias B and Zhang, Yuyu and Dilkina, Bistra and Song, Le},
       journal={arXiv preprint arXiv:1704.01665},
       year={2017}
     }
