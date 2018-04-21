@@ -111,9 +111,11 @@ if __name__ == '__main__':
             print 'iter', iter, 'eps', eps, 'average size of vc: ', frac / n_valid
             sys.stdout.flush()
             model_path = '%s/nrange_%d_%d_iter_%d.model' % (opt['save_dir'], int(opt['min_n']), int(opt['max_n']), iter)
+            print('api.SaveModel(model_path)')
             api.SaveModel(model_path)
 
         if iter % 1000 == 0:
+            print('api.TakeSnapshot()') 
             api.TakeSnapshot()
-
+        print('api.lib.Fit()')#
         api.lib.Fit()
